@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ropa">
+  <ClassDiagramComponents>
+    <Class name="Ropa" package="SuperClases" visibility="public" isAbstract="true" xPosition="117.0" yPosition="71.0">
+      <Fields>
+        <Field name="talla" type="String" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="marca" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="talla"/>
+          <Argument type="String" name="color"/>
+          <Argument type="String" name="marca"/>
+          <Argument type="double" name="precio"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="unidad"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getTalla" returnType="String" visibility="public"/>
+        <Method name="setTalla" returnType="void" visibility="public">
+          <Argument type="String" name="talla"/>
+        </Method>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
